@@ -1,151 +1,56 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Portofolio pribadi untuk menampilkan profil, keahlian, dan proyek.">
-  <title>Portofolio Saya</title>
+  <meta name="description" content="CV and portfolio of Rizki Aditya, Electrical Engineering Technology student at Gadjah Mada University.">
+  <title>Rizki Aditya | CV &amp; Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="header">
-    <nav class="container nav">
-      <a class="logo" href="#beranda">My<span>Portfolio</span></a>
-      <ul class="nav-links">
-        <li><a href="#beranda">Beranda</a></li>
-        <li><a href="#tentang">Tentang</a></li>
-        <li><a href="#keahlian">Keahlian</a></li>
-        <li><a href="#proyek">Proyek</a></li>
-        <li><a href="#kontak">Kontak</a></li>
-      </ul>
-    </nav>
-  </header>
-
+  <header class="site-header"><nav class="navbar container" aria-label="Main navigation">
+    <a class="brand" href="#home">RA<span>.</span></a>
+    <ul class="nav-links"><li><a href="#about">About</a></li><li><a href="#education">Education</a></li><li><a href="#skills">Skills</a></li><li><a href="#projects">Projects</a></li><li><a class="nav-contact" href="#contact">Contact</a></li></ul>
+  </nav></header>
   <main>
-    <section class="hero" id="beranda">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <p class="eyebrow">Halo, saya</p>
-          <h1>Selamat Datang di<br>Portofolio Saya</h1>
-          <p class="hero-description">
-            Saya tertarik pada teknologi, pemrograman, dan pengembangan web.
-            Di sini, saya membagikan profil, keahlian, serta proyek yang saya kerjakan.
-          </p>
-          <div class="buttons">
-            <a class="button primary" href="#proyek">Lihat Proyek →</a>
-            <a class="button outline" href="#kontak">Hubungi Saya</a>
-          </div>
-        </div>
-        <div class="profile-art" aria-label="Ilustrasi profil">
-          <div class="orbit"></div>
-          <div class="avatar">👨‍💻</div>
-        </div>
+    <section class="hero" id="home"><div class="container hero-grid">
+      <div class="hero-copy"><p class="eyebrow"><span class="status-dot"></span> Electrical Engineering Technology Student</p>
+        <h1>Rizki <span>Aditya</span></h1>
+        <p class="hero-lead">First-year Electrical Engineering Technology student at Gadjah Mada University with an interest in electrical systems, electronics, and programming.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore My Work ↗</a><a class="button button-secondary" href="#contact">Get in Touch</a></div>
+        <div class="hero-meta"><span>⌖ &nbsp;Purworejo, Indonesia</span><span>✉ &nbsp;rizkiaditya@mail.ugm.ac.id</span></div>
+      </div>
+      <aside class="hero-card"><div class="monogram">RA</div><div class="hero-card-caption"><p class="card-label">CURRENTLY STUDYING</p><h2>Electrical Engineering Technology</h2><p>Gadjah Mada University</p><span class="year-pill">2026 — Present</span></div><div class="decor decor-one"></div><div class="decor decor-two"></div></aside>
+    </div></section>
+    <section class="section container" id="about"><div class="section-heading"><p class="eyebrow">01 / Profile</p><h2>About Me</h2></div>
+      <div class="about-layout"><p class="about-intro">An enthusiastic student building a strong foundation in electrical engineering, electronics, and programming.</p>
+        <div class="about-copy"><p>First-year Electrical Engineering Technology student at Gadjah Mada University. Possesses foundational knowledge of electrical measurements, electronic components, and basic programming. Demonstrates problem-solving skills, responsibility, and the ability to work well within a team, along with a willingness to learn and develop technical skills.</p><div class="strength-list"><span>Problem-solving</span><span>Teamwork</span><span>Continuous learning</span></div></div>
       </div>
     </section>
-
-    <section class="section" id="tentang">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Kenali saya</p>
-          <h2>Tentang Saya</h2>
-          <p>Perkenalan singkat tentang latar belakang, minat, dan tujuan saya.</p>
-        </div>
-        <div class="about-grid">
-          <article class="card">
-            <p>
-              Saya senang mempelajari hal baru, memecahkan masalah, dan membuat
-              sesuatu yang bermanfaat melalui teknologi. Saya terus mengembangkan
-              kemampuan agar dapat menghasilkan karya yang berkualitas.
-            </p>
-            <div class="info-grid">
-              <div class="info-item"><span class="info-icon">♙</span><div><strong>Nama</strong><p>Nama Anda</p></div></div>
-              <div class="info-item"><span class="info-icon">✉</span><div><strong>Email</strong><p>emailanda@example.com</p></div></div>
-              <div class="info-item"><span class="info-icon">⌖</span><div><strong>Lokasi</strong><p>Indonesia</p></div></div>
-              <div class="info-item"><span class="info-icon">🎓</span><div><strong>Pendidikan</strong><p>Isi pendidikan Anda</p></div></div>
-            </div>
-          </article>
-          <aside class="card education">
-            <div class="education-icon">🎓</div>
-            <h3>Pendidikan &amp; Tujuan</h3>
-            <p>Tambahkan nama sekolah atau universitas, bidang studi, serta tujuan karier Anda di bagian ini.</p>
-          </aside>
-        </div>
+    <section class="section section-muted" id="education"><div class="container"><div class="section-heading"><p class="eyebrow">02 / Background</p><h2>Education</h2></div>
+      <div class="timeline">
+        <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>Gadjah Mada University</h3><p class="timeline-subtitle">Electrical Engineering Technology</p></div><span class="date">2026 — Present</span></div><p class="muted">Undergraduate study</p></div></article>
+        <article class="timeline-item"><div class="timeline-marker"></div><div class="timeline-content"><div class="timeline-top"><div><h3>SMA Negeri 7 Purworejo</h3><p class="timeline-subtitle">Science Major</p></div><span class="date">2022 — 2025</span></div><p class="muted">Secondary education</p></div></article>
       </div>
-    </section>
-
-    <section class="section skills-section" id="keahlian">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Kemampuan</p>
-          <h2>Keahlian Saya</h2>
-          <p>Ubah daftar ini sesuai kemampuan yang Anda kuasai.</p>
-        </div>
-        <div class="skills">
-          <span class="skill">HTML</span>
-          <span class="skill">CSS</span>
-          <span class="skill">JavaScript</span>
-          <span class="skill">Python</span>
-          <span class="skill">Problem Solving</span>
-          <span class="skill">Git &amp; GitHub</span>
-        </div>
+    </div></section>
+    <section class="section container" id="skills"><div class="section-heading"><p class="eyebrow">03 / Capabilities</p><h2>Skills</h2><p class="section-description">Technical knowledge and working skills developed through study and practice.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card"><div class="skill-icon">01</div><h3>Programming</h3><p>Python programming for basic problem-solving, data processing, and program development.</p><div class="tags"><span>Python</span><span>Google Colab</span></div></article>
+        <article class="skill-card"><div class="skill-icon">02</div><h3>Basic Electronics</h3><p>Understanding of electronic components such as resistors, capacitors, diodes, and BJT transistors.</p><div class="tags"><span>Components</span><span>BJT</span></div></article>
+        <article class="skill-card"><div class="skill-icon">03</div><h3>Electrical Measurement</h3><p>Understanding of measuring instruments and basic electrical measurement techniques.</p><div class="tags"><span>Instruments</span><span>Measurement</span></div></article>
+        <article class="skill-card"><div class="skill-icon">04</div><h3>Software</h3><p>Experience with common productivity and design tools.</p><div class="tags"><span>Canva</span><span>Word</span><span>Excel</span><span>PowerPoint</span></div></article>
       </div>
+      <div class="soft-skills"><div><p class="eyebrow">How I work</p><h3>Soft Skills</h3></div><div class="soft-skill-list"><span>Analytical Problem Solving</span><span>Team Collaboration</span><span>Fast Learning &amp; Adaptability</span><span>Time Management &amp; Accountability</span><span>Responsibility</span></div></div>
     </section>
-
-    <section class="section projects-section" id="proyek">
-      <div class="container">
-        <div class="section-heading">
-          <p class="eyebrow">Karya pilihan</p>
-          <h2>Proyek Terbaru</h2>
-          <p>Berikut contoh proyek yang dapat diganti dengan karya Anda sendiri.</p>
-        </div>
-        <div class="project-grid">
-          <article class="card project-card">
-            <div class="project-visual visual-blue">▦</div>
-            <div class="project-content">
-              <h3>Kalkulator Web</h3>
-              <p>Aplikasi kalkulator sederhana dengan antarmuka yang mudah digunakan.</p>
-              <a class="project-link" href="#kontak">Lihat detail →</a>
-            </div>
-          </article>
-          <article class="card project-card">
-            <div class="project-visual visual-purple">☷</div>
-            <div class="project-content">
-              <h3>Aplikasi Catatan</h3>
-              <p>Aplikasi pencatatan untuk mengatur ide, tugas, dan aktivitas sehari-hari.</p>
-              <a class="project-link" href="#kontak">Lihat detail →</a>
-            </div>
-          </article>
-          <article class="card project-card">
-            <div class="project-visual visual-green">⌘</div>
-            <div class="project-content">
-              <h3>Website Profil</h3>
-              <p>Website responsif untuk memperkenalkan profil, keahlian, dan kontak.</p>
-              <a class="project-link" href="#kontak">Lihat detail →</a>
-            </div>
-          </article>
-        </div>
+    <section class="section projects-section" id="projects"><div class="container"><div class="section-heading"><p class="eyebrow">04 / Practical Learning</p><h2>Projects &amp; Activities</h2><p class="section-description">Current learning activities and practical experience listed in my CV.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-number">01</div><div class="project-symbol">&lt;/&gt;</div><h3>Python Programming</h3><p>Developing Python programs using Google Colab to practice basic programming and cultivate programming logic for problem-solving.</p><span class="project-category">Programming</span></article>
+        <article class="project-card"><div class="project-number">02</div><div class="project-symbol">⌁</div><h3>Electrical Measurements</h3><p>Performing electrical measurements on electronic components using measuring instruments.</p><span class="project-category">Electronics</span></article>
+        <article class="project-card"><div class="project-number">03</div><div class="project-symbol">⌘</div><h3>Arduino &amp; Circuit Simulation</h3><p>Learning about Arduino and circuit simulation using Wokwi.</p><span class="project-category">Embedded Systems</span></article>
       </div>
-    </section>
-
-    <section class="section" id="kontak">
-      <div class="container">
-        <div class="contact-card card">
-          <div>
-            <p class="eyebrow">Mari terhubung</p>
-            <h2>Hubungi Saya</h2>
-            <p>Punya pertanyaan atau ingin bekerja sama? Silakan kirim pesan melalui email.</p>
-          </div>
-          <a class="button primary" href="mailto:emailanda@example.com">Kirim Email ↗</a>
-        </div>
-      </div>
-    </section>
+    </div></section>
+    <section class="section container" id="contact"><div class="contact-panel"><div><p class="eyebrow">05 / Contact</p><h2>Let’s Connect</h2><p class="contact-intro">Feel free to reach out by email or connect with me on LinkedIn.</p></div><div class="contact-links"><a href="mailto:rizkiaditya@mail.ugm.ac.id"><span>✉</span> rizkiaditya@mail.ugm.ac.id</a><a href="https://www.linkedin.com/in/rizki-aditya" target="_blank" rel="noopener noreferrer"><span>in</span> LinkedIn Profile ↗</a><p><span>⌖</span> Purworejo</p><p><span>☎</span> +6205649921792</p></div></div></section>
   </main>
-
-  <footer class="footer">
-    <div class="container footer-content">
-      <p>© 2026 Portofolio Saya. Dibuat dengan ♥</p>
-      <a href="#beranda">Kembali ke atas ↑</a>
-    </div>
-  </footer>
+  <footer class="footer"><div class="container footer-inner"><a class="brand" href="#home">RA<span>.</span></a><p>CV &amp; Portfolio · Rizki Aditya</p><a href="#home">Back to top ↑</a></div></footer>
 </body>
 </html>
